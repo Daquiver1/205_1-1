@@ -1,0 +1,31 @@
+<form name="login_form" method="post" action="/login">
+  <label for="firstName">First name: </label>
+  <input type="text" name="firstName" required />
+  <br />
+  <label for="gender">Gender</label><br />
+  <input type="radio" name="sex" id="male" value="Male" />
+  <label for="male">Male</label>
+  <input type="radio" name="sex" id="female" value="female" />
+  <label for="female">Female</label>
+  <br />
+  <label for="country">Country: </label>
+  <select name="country" id="country">
+    <option>Select an option</option>
+    <option value="nepal">Nepal</option>
+    <option value="usa">USA</option>
+    <option value="australia">Australia</option></select
+  ><br /><br />
+  <label for="Biography">Biography</label>
+  <textarea name="Biography" id="Biography" cols="30"> </textarea>
+  <label for="lastName">Last name: </label>
+  <input type="text" name="lastName" required />
+  <br />
+  <label for="email">Email: </label>
+  <input type="email" name="email" required />
+  <br />
+  <label for="password">Password: </label>
+  <input type="password" name="password" required />
+  <br />
+  <input type="submit" value="Login!" />
+  <button>Click me</button>
+</form>
